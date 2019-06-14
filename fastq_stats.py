@@ -164,7 +164,7 @@ if __name__ == '__main__':
 
     print('#################### STATS ####################')
     print('Most abundant K-mer: {}'.format(most_abundant_k_mer))
-    print('Count: '.format(len(k_mer_scores)))
+    print('Count: {}'.format(len(k_mer_scores)))
     print('Quality lower quartile: {}'.format(lower_quartile_score))
     print('Quality median: {}'.format(median_quality_score))
     print('Quality upper quartile: {}'.format(upper_quality_score))
