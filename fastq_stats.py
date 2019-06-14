@@ -5,7 +5,8 @@ from typing import Iterable, List, Tuple
 
 import numpy as np
 
-from conf.const import BASES, FILENAME, SCALP_SIZE, WILDCARD, WINDOW_SIZE
+from conf.const import BASES, FILENAME, SCALP_SIZE,\
+    WILDCARD, WINDOW_SIZE
 
 
 def grouper(read: Iterable, window_size: int) -> Iterable:
