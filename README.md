@@ -16,4 +16,4 @@ First, close the repository to your local machine. Then, install numpy via [pip]
  
  **Execution**
  
- `$> python`
+ `$> python fastq_stats.py`
